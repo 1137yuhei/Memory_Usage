@@ -13,6 +13,6 @@ def cb(msg):
 
 
 def main():
-    sub = node.create_subscription(Person, "person", cb, 10)
+    sub = node.create_subscription(Person, "person", cb, 8)
     rclpy.spin(node)
 

@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'memory_usage_publisher = mypkg.MemoryUsagePublisher:main',
+            'listener = mypkg.listener:main'
         ],
     },
 )
