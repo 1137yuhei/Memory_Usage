@@ -1,18 +1,18 @@
 import rclpy
 from rclpy.node import Node
-from person_msgs.msg import Person
+from std_msgs.msg import Float64
 
 
 rclpy.init()
-node = Node("listener")
+node = Node("memory_listener")
 
 
 def cb(msg):
     global node
-    node.get_logger().info("Listen: %s" % msg)
+    node.get_logger().info(f"Memory_listener: {msg.data}%")
 
 
 def main():
-    sub = node.create_subscription(Person, "person", cb, 8)
+    sub = node.create_subscription(Float64, "memory_usage", cb, 10)
     rclpy.spin(node)
-
+    rclpy.shutdown()
