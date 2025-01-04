@@ -6,9 +6,9 @@
 
 ##  ノード概要
 
-###　MemoryUsagePiblisherノード
+###  MemoryUsagePiblisherノード
 
-- '''MemoryUsagePiblisher''':ノードはシステムのメモリの使用率を1秒ごとに計測し、トピックにパブリッシュする
+- ```MemoryUsagePiblisher```:ノードはシステムのメモリの使用率を1秒ごとに計測し、トピックにパブリッシュする
 
 ###  listenerノード
 
@@ -34,14 +34,26 @@
 
 ## 使用方法
 
+### パッケージのセットアップ
+
+- psutilをインストールする
+```  
+`sudo apt install python3-pip`  
+`pip install psutil`
+```
 - リポジトリをクローン
 ```
-'git clone https://github.com/1137yuhei/robosys2024.git'
+`cd ~/ros2_ws/src`
+`git clone https://github.com/1137yuhei/Memory_Usage.git`
 ```
 - ディレクトリに移動
 ```
-'cd robosys2024'
+`cd ~/ros2_ws`
+`colon build`
 ```
+
+###  ノードの実行
+
 - 'binary'スクリプトを実行権限を与える
 ```
 'chmod +x binary'
