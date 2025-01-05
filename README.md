@@ -8,12 +8,12 @@
 
 ###  MemoryUsagePiblisherノード
 
-- ```MemoryUsagePiblisher```:ノードはシステムのメモリの使用率を1秒ごとに計測し、トピックにパブリッシュする
+- ```MemoryUsagePiblisher```ノードはシステムのメモリの使用率を1秒ごとに計測し、トピックにパブリッシュする
 
 ###  listenerノード
 
 - テスト用
-- メッセージをサブスクライブして受け取るサブスクライブ
+- メッセージをサブスクライブして受け取る
 
 ##  トピック
 
@@ -37,25 +37,25 @@
 ### パッケージのセットアップ
 
 - psutilをインストールする
-  
-`sudo apt install python3-pip`  
-`pip install psutil`
-
+```
+sudo apt install python3-pip
+pip install psutil
+```
 - リポジトリをクローン
-
-`cd ~/ros2_ws/src`
-`git clone https://github.com/1137yuhei/Memory_Usage.git`
-
+```
+cd ~/ros2_ws/src
+git clone https://github.com/1137yuhei/Memory_Usage.git
+```
 - ディレクトリに移動
-
-`cd ~/ros2_ws`
-`colon build`
-
+```
+cd ~/ros2_ws
+colon build
+```
 ###  ノードの実行
 
 ####  一つの端末で実行する方法
 
-  - `ros2 run talk_listen.launch.py`
+  `ros2 run talk_listen.launch.py`
 
 ####  二つの端末で実行する方法
 
@@ -86,4 +86,4 @@
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます.
 - このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
     - [ryuichiueda/slides_marp/robosys2024](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024)
-- ©2024 Mitsuno Yuhei# ROS2-
+- ©2024 Mitsuno Yuhei
