@@ -37,50 +37,49 @@
 ### パッケージのセットアップ
 
 - psutilをインストールする
-```  
+  
 `sudo apt install python3-pip`  
 `pip install psutil`
-```
+
 - リポジトリをクローン
-```
+
 `cd ~/ros2_ws/src`
 `git clone https://github.com/1137yuhei/Memory_Usage.git`
-```
+
 - ディレクトリに移動
-```
+
 `cd ~/ros2_ws`
 `colon build`
-```
 
 ###  ノードの実行
 
-- 'binary'スクリプトを実行権限を与える
-```
-'chmod +x binary'
-```
-- 'robosys2024'のディレクトリでコマンドを実行する
+####  一つの端末で実行する方法
 
-## 実行方法
+  - `ros2 run talk_listen.launch.py`
+
+####  二つの端末で実行する方法
+
+  - 一つ目の端末で以下のコマンドを実行
+
+  `ros2 run mypkg memory_usage_publisher`
+
+  - 二つ目の端末で以下のコマンドを実行
+
+  `ros2 run mypkg listener`
+
+## 実行結果
+
+### 一つの端末で実行した例
 ```
 'echo <数字> | ./binary'
 ```
-## 実行例
+### 二つつの端末で実行した例
 
-- 実行例１
+- 一つ目の端末
 ```
-$ echo 10 | ./binary
 ```
-- 実行結果１
+- 二つ目の端末
 ```
-0b1010
-```
-- 実行例２
-```
-$ echo -10 | ./binary
-```
-- 実行結果２
-```
--0b1010
 ```
 
 ## ライセンス
