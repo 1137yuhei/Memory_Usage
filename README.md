@@ -54,19 +54,19 @@ colon build
 ###  ノードの実行
 
 ####  一つの端末で実行する方法
-
-  `ros2 run talk_listen.launch.py`
-
+```
+ros2 launch mypkg talk_listen.launch.py
+```
 ####  二つの端末で実行する方法
 
   - 一つ目の端末で以下のコマンドを実行
-
-  `ros2 run mypkg memory_usage_publisher`
-
+```
+ros2 run mypkg memory_usage_publisher
+```
   - 二つ目の端末で以下のコマンドを実行
-
-  `ros2 run mypkg listener`
-
+```
+ros2 run mypkg listener
+```
 ## 実行結果
 
 ### 一つの端末で実行した例
