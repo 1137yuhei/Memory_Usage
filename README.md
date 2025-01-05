@@ -2,7 +2,7 @@
 ロボットシステム学授業用
 メモリ使用率をトピックから出力するROS2のパッケージ
 
-[![test](https://github.com/1137yuhei/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/1137yuhei/robosys2024/actions/workflows/test.yml)
+[![test](https://github.com/1137yuhei/Memory_Usage/actions/workflows/test.yml/badge.svg)](https://github.com/1137yuhei/Memory_Usage/actions/workflows/test.yml)
 
 ##  ノード概要
 
