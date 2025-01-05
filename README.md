@@ -71,15 +71,43 @@ colon build
 
 ### 一つの端末で実行した例
 ```
-'echo <数字> | ./binary'
+[listener-2] [INFO] [1736062114.849651170] [memory_listener]: Memory_listener: 8.8%
+[memory_usage_publisher-1] [INFO] [1736062115.848540585] [memory_usage_pub]: Publishing: 8.8%
+[listener-2] [INFO] [1736062115.849522338] [memory_listener]: Memory_listener: 8.8%
+[memory_usage_publisher-1] [INFO] [1736062116.848671766] [memory_usage_pub]: Publishing: 8.8%
+[listener-2] [INFO] [1736062116.849681993] [memory_listener]: Memory_listener: 8.8%
+[memory_usage_publisher-1] [INFO] [1736062117.848692131] [memory_usage_pub]: Publishing: 8.8%
+[listener-2] [INFO] [1736062117.849535256] [memory_listener]: Memory_listener: 8.8%
+[memory_usage_publisher-1] [INFO] [1736062118.848518762] [memory_usage_pub]: Publishing: 8.8%
+...
 ```
 ### 二つつの端末で実行した例
 
 - 一つ目の端末
 ```
+[INFO] [1736054814.030852193] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054815.030968233] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054816.030894823] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054817.030910965] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054818.031051418] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054819.030907771] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054820.030759681] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054821.031001302] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054822.031043598] [memory_usage_pub]: Publishing: 8.5%
+[INFO] [1736054823.030939367] [memory_usage_pub]: Publishing: 8.5%
+...
 ```
 - 二つ目の端末
 ```
+[INFO] [1736054915.031510683] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054916.032067852] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054917.031301668] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054918.031673777] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054919.031690321] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054920.031189195] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054921.031777313] [memory_listener]: Memory_listener: 8.9%
+[INFO] [1736054922.031720671] [memory_listener]: Memory_listener: 8.9%
+...
 ```
 
 ## ライセンス

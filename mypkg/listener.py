@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2024 Yuhei Mitsuno
+# SPDX-License-Identifier: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64
