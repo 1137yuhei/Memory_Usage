@@ -7,11 +7,11 @@ import launch_ros.actions
 def generate_launch_description():
 
     memory_usage_publisher = launch_ros.actions.Node(
-        package='mypkg',      #パッケージの名前を指定
+        package='memory_usage',      #パッケージの名前を指定
         executable='memory_usage_publisher',  #実行するファイルの指定
         )
     listener = launch_ros.actions.Node(
-        package='mypkg',
+        package='memory_usage',
         executable='listener',
         output='screen'        #ログを端末に出すための設定
         )
