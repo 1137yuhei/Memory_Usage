@@ -1,6 +1,6 @@
 # memory_usage
 ロボットシステム学授業用
-メモリ使用率をトピックから出力するROS2のパッケージ
+メモリ使用率をトピックから出力するROS2のパッケージです
 
 [![test](https://github.com/1137yuhei/Memory_Usage/actions/workflows/test.yml/badge.svg)](https://github.com/1137yuhei/Memory_Usage/actions/workflows/test.yml)
 
@@ -24,7 +24,7 @@
 ## テスト環境
 
 - ubuntu 22.04 LTS
-- ROS 2 foxy
+- ROS2 Humble
 
 ## 使用方法
 
