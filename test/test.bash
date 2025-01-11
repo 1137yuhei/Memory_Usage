@@ -10,7 +10,7 @@ colcon build
 
 source $dir/.bashrc
 
-timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
+timeout 10 ros2 launch memory_usage talk_listen.launch.py > /tmp/memory_usage.log
 
-cat /tmp/mypkg.log  |
+cat /tmp/memory_usage.log  |
 grep -m 1 "Publishing"
