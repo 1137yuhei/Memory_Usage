@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'memory_usage_publisher = memory_usage.MemoryUsagePublisher:main',
+            'memory_usage_publisher = memory_usage.memory_usage_publisher.py:main',
             'listener = memory_usage.listener:main'
         ],
     },
