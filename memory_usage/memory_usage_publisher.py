@@ -20,7 +20,6 @@ class MemoryUsagePublisher(Node):
         msg = Float64()
         msg.data = memory_usage
         self.pub.publish(msg)
-        self.get_logger().info(f"Publishing: {msg.data}%")
 
 def main():
     rclpy.init()
