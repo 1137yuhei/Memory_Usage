@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 from glob import glob
-package_name = 'mypkg'
+package_name = 'memory_usage'
 
 setup(
     name=package_name,
@@ -22,8 +22,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'memory_usage_publisher = mypkg.MemoryUsagePublisher:main',
-            'listener = mypkg.listener:main'
+            'memory_usage_publisher = memory_usage.MemoryUsagePublisher:main',
+            'listener = memory_usage.listener:main'
         ],
     },
 )
