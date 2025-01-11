@@ -13,4 +13,4 @@ source $dir/.bashrc
 timeout 10 ros2 launch memory_usage talk_listen.launch.py > /tmp/memory_usage.log
 
 cat /tmp/memory_usage.log  |
-grep -m 1 "Publishing"
+grep -m 1 "memory_listener"
