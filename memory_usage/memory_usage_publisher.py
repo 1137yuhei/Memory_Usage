@@ -25,4 +25,3 @@ def main():
     rclpy.init()
     node = MemoryUsagePublisher()
     rclpy.spin(node)
-    rclpy.shutdown()
