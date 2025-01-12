@@ -18,4 +18,3 @@ def cb(msg):
 def main():
     sub = node.create_subscription(Float64, "memory_usage", cb, 10)
     rclpy.spin(node)
-    rclpy.shutdown()
