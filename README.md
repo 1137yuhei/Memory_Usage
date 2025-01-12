@@ -18,7 +18,7 @@
 
 ###  memory_usageトピック
 
-- このトピックはFloat64型のメッセージを受け取ることができます。
+  このトピックはFloat64型のメッセージを受け取ることができます。
 
 ## テスト環境
 
@@ -29,26 +29,22 @@
 
 ### パッケージのセットアップ
 
-- psutilをインストールします。
+  psutilをインストールします。（インストールされていない方のみ）
 ```
 sudo apt install python3-pip
 pip install psutil
 ```
-- ディレクトリに移動します。
-```
-cd ~/ros2_ws
-colon build
-```
+
 ###  ノードの実行
 
-  以下のコマンドを実行します。（何も表示されません。）
+  以下のコマンドをターミナルで実行します。（何も表示されません。）
 
 ```
 ros2 run memory_usage memory_usage_publisher
 ```
 
 ###  listenerを使用したテスト結果
-　以下のコマンドを別の端末で実行してテストをしました。
+　以下のコマンドを別の端末のターミナルで実行してテストをしました。
 ```
 ros2 run memory_usage listener
 ```
